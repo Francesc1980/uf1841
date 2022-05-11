@@ -1,0 +1,153 @@
+body {
+  margin: 0;
+  background-color: rgb(44, 41, 38);
+  font-family: 'Open Sans', sans-serif
+}
+#main-header{
+  background-color: rgb(66, 3, 3);
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+#logo{
+  text-decoration: none;
+}
+
+#main-header a:visited {
+  color:rgb(185, 131, 31);
+}
+  
+#main-header ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+#main-header ul li a{
+  text-decoration:none;
+}
+
+#main-header li {
+  margin: 0 1rem;
+}
+
+#main-header nav a {
+  color: rgb(185, 131, 31);
+  
+}
+
+#main-header nav a:hover{
+  background-color:rgb(228, 163, 44);
+}
+
+ #logo:hover{
+  background-color:rgb(228, 163, 44);
+}
+
+
+#logo{
+  font-size:32px;
+
+}
+
+
+
+
+
+
+
+#main-header {
+  height: 5rem;
+  background-color: rgb(29, 26, 24);
+  padding: 0 1%;
+
+}
+
+#main-header ul li a{
+  font-size:1.5em;
+}
+
+main h1 {
+  text-align: center;
+  font-size: 3rem;
+    color: rgb(185, 131, 31);
+
+}
+
+#latest-products {
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content:flex-end;
+  
+  
+}
+
+
+
+.food-item {
+  background-color: rgb(228, 206, 182);
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  padding:0.5em;
+  margin:0.5em;
+  
+
+
+ 
+}
+
+
+
+.food-item img {
+  height: 250px;
+}
+
+.food-item-content {
+  padding: 1rem;
+  text-align:center;
+
+}
+
+.food-item-content .btn {
+  border-radius:2px solid;
+  padding:2px 16px;
+
+}
+
+
+
+
+.food-item h2 {
+  margin: 0 0 1rem 0;
+}
+
+.food-item .btn{
+  text-align:center;
+}
+
+.btn {
+  background-color: rgb(228, 157, 44);
+  color: white;
+  font-weight: 700;
+  text-decoration:none;
+  border-radius:5px 5px 5px 5px;
+  padding:5px 25px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
